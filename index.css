@@ -69,8 +69,8 @@ body > div > div:nth-child(2) > div:nth-child(2) > div{
 
 body > div > div:nth-child(2) > div:nth-child(2) > div >img{
     width: 100%;
-    /* border: 1px solid rgb(243, 13, 193); */
     padding-bottom: 0px;
+
 }
 
 body > div > div:nth-child(2) > div:last-child{
@@ -81,10 +81,13 @@ body > div > div:nth-child(2) > div:last-child{
 
 body > div > div:nth-child(2) >div:last-child > div {
     width: 20%;
+    margin-right: 15%;
+    border: 1px solid black;
 }
 
 body > div > div:nth-child(2) >div:last-child > div > img {
     width: 100%;
+    
 }
 
 body > div > div:nth-child(3){
@@ -109,7 +112,6 @@ body > div > div >div{
     position: sticky;
     top: 0px;
     background-color: rgb(242, 7, 164);
-    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
 }
@@ -128,19 +130,36 @@ a {
 
 #lastPartofTop > div > div:first-child{
     width: 80%;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgb(7, 5, 5); */
     display: flex;
+    font-size: 13px;
     justify-content: space-between;
     flex-direction: row;
     font-weight: bold;
-    margin: 1px 1px 2px 61px;
+    margin: 1px -61px 2px 32px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 #cart{
+    width: 20%;
     display: flex;
+    background-color: rgb(214, 46, 158);
     color: white;
+    font-size: 25px;
     flex-direction: row;
-    margin: 1px 1px 1px 111px;
+    padding: 0.5%;
+    margin: 1px 20px 1px 111px;
 }
 
 #lastPartofTop > div > div > div > div > img{
@@ -159,8 +178,8 @@ a {
     display: flex;
     flex-direction: row;
 }
-/* //////////////////////////////////////////////////////////////////////////////////////// */
 
+/* -------------------------------------------------------------------------------------- */
 
 #box-1{
     /* border: 1px solid blue; */
@@ -171,20 +190,46 @@ a {
     flex-direction: column;
 }
 
+#extraImg > div{
+    width: 100%;
+}
+
+#extraImg > div > img{
+    width: 100%;
+}
+
 #box-1 >select{
     padding: 3%;
 }
 
 #box-1 > div >img{
-    /* border: 1px solid black; */
+   
     width: 150%;
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////// */
+/*-------------------------------------------------------------------------------------------*/
 
 #box-2{
-    /* border: 1px solid red; */
+   
     width: 74%;
+    margin: 0% 0.1% auto auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#box-2 > #box21 {
+    margin: 0% 0.1% auto auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+#box22{
+  
+    width: 100%;
     margin: 0% 0.1% auto auto;
     height: auto;
     display: grid;
@@ -193,24 +238,27 @@ a {
     gap: 1% 1%;
 }
 
-#box-2 > div{
-    /* border: 1px solid green; */
+#box22 > div{
+    border: none;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 1px auto 1px auto;
     padding: 1px auto 1px auto;
-    /* line-height: 2px; */
 }
 
-#box-2 > div >img{
+.checked {
+    color: rgb(214, 7, 7);
+}
+
+#box22 > div > img {
     width: 100%;
     margin: 0px auto -3px auto;
     padding: 1px auto 1px auto;
 }
 
-#box-2 > div > h4{
+#box22 > div > h4 {
     margin: -8px auto 17px auto;
     padding: 1px auto 1px auto;
     text-decoration: none;
@@ -218,7 +266,7 @@ a {
     color: rgb(47, 8, 175);
 }
 
-#box-2 > div > h5{
+#box22 > div > h5{
     color: rgb(242, 7, 164);
     font-weight: bold;
     font-size: larger;
@@ -227,30 +275,165 @@ a {
     padding: 1px auto 1px auto;
 }
 
-#box-2 >h1 {
+#box22 > h1 {
     width: 20%;
     line-height: 5%;
     margin: 1px auto 1px auto;
     padding: 1px auto 1px auto;
-    border: 1px solid blueviolet;
     border-radius: 5px;
 }
 
-#box-2 {
+#box22 {
     text-align: center;
 }
 
-p{
+#box22 p{
     font-family: Arial, Helvetica, sans-serif;
-    /* line-height: 5%; */
     font-size: 110%;
-}
+} 
 
-#box-2 > div >button{
+#box22 > div > button{
     background-color: rgb(242, 7, 164);
     color: white;
+    margin: 1% 30% 1% 30%;
     margin-bottom: 4%;
     border: none;
     padding: 3% 5% 3% 5%;
+} 
+
+/* -------------------------------------------------------------------------------------- */
+
+
+.hide1 {
+    display: none;
+}
+.hide2 {
+    display: none;
+}
+.hide3 {
+    display: none;
+}
+.hide4 {
+    display: none;
+}
+.hide5 {
+    display: none;
+}
+.hide6 {
+    display: none;
+}
+.hide7 {
+    display: none;
+}
+ 
+/* -------------------------------------------------------------------------------------- */
+
+
+.myDIV1:hover + .hide1 {
+    padding: 2%;
+    position: absolute;
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-color: white;
 }
 
+/* -------------------------------------------------------------------------------------- */
+
+
+.myDIV2:hover + .hide2 {
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    background-color: white;
+}
+.hide2 > div:last-child{
+    width: 75%;
+}
+.hide2 > div:last-child > div > img {
+    width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.hoverdiv{
+    display: flex;
+    width: 22%;
+    flex-direction: column;
+}
+
+
+.hoverdiv > p{
+    line-height: 5%;
+    font-size: 12px;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.myDIV3:hover + .hide3 {
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    background-color: white;
+}
+.hide3 > div:last-child{
+    width: 75%;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.myDIV4:hover + .hide4 {
+    padding: 2%;
+    width: 90%;
+    position: absolute;
+    height: auto;
+    display: flex;
+    background-color: white;
+}
+.hide4 > div:last-child{
+    width: 75%;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.myDIV5:hover + .hide5 {
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    background-color: white;
+}
+.hide5 > div:last-child{
+    width: 75%;
+}
+/* -------------------------------------------------------------------------------------- */
+
+
+.myDIV6:hover + .hide6 {
+    padding: 2% 0% 2% 5%;
+    display: block;
+    position: absolute;
+    margin-left: 35%;
+    width: 50%;
+    height: auto;
+    background-color: white;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+.myDIV7:hover + .hide7 {
+    padding: 2%;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    background-color: white;
+}
+.hide7 > div:last-child{
+    width: 75%;
+}
