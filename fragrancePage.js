@@ -225,8 +225,19 @@ product_data.forEach(function (elem, index) {
     let img = document.createElement("img");
     img.setAttribute("src", elem.img);
 
-    let rating = document.createElement("p");
-    rating.innerText = elem.rating;
+    let rating = document.createElement("h3");
+     
+    let span1 = document.createElement("span");
+    let span2 = document.createElement("span");
+    let span3 = document.createElement("span");
+    let span4 = document.createElement("span");
+    let span5 = document.createElement("span");
+
+    span1.setAttribute("class","fa fa-star checked");
+    span2.setAttribute("class","fa fa-star checked");
+    span3.setAttribute("class","fa fa-star checked");
+    span4.setAttribute("class","fa fa-star");
+    span5.setAttribute("class","fa fa-star");
 
     let name = document.createElement("p");
     name.innerText = elem.name;
@@ -246,7 +257,7 @@ product_data.forEach(function (elem, index) {
     let addtoCart = document.createElement("button");
     addtoCart.innerText = "Add to cart";
     
-
+    rating.append(span1,span2, span3, span4, span5);  
     div.append(img, rating, name, price, brand, category, addtoCart);
     console.log(div);
     document.querySelector("#box22").append(div);

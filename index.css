@@ -248,6 +248,10 @@ a {
     padding: 1px auto 1px auto;
 }
 
+.checked {
+    color: rgb(214, 7, 7);
+}
+
 #box22 > div > img {
     width: 100%;
     margin: 0px auto -3px auto;
@@ -304,7 +308,7 @@ a {
     display: none;
 }
 .hide2 {
-display: none;
+    display: none;
 }
 .hide3 {
     display: none;
