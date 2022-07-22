@@ -25,8 +25,8 @@ body > div > div:nth-child(1) > img{
     width: 100%;
 }
 
-body > div > div:nth-child(2){
-    /* border: 1px solid rgb(244, 13, 182); */
+#navbar > div:nth-child(2){
+    border: 1px solid rgb(244, 13, 182);
     height: auto;
     width: 100%;
     display: flex;
@@ -34,32 +34,52 @@ body > div > div:nth-child(2){
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    margin-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 body > div > div:nth-child(2) > div:first-child >img {
     width: 100%;
 }
 
+/* ------------------------------------------------------------------------------------------- */
+ /* i have to work here  */
+
+
 body > div > div:nth-child(2) > div:nth-child(2){
+    border: 1px solid rgb(215, 213, 213);
     display: flex;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
     padding: 0px;
     width: 50%;
     height: fit-content;
-    /* justify-content: center; */
 }
 
-body > div > div:nth-child(2) > div:nth-child(2) > input{
+body > div > div:nth-child(2) > div:nth-child(2) > div {
+    display: flex;
+}
+
+body > div > div:nth-child(2) > div:nth-child(2) > div > span {
+    padding: 20%;
+    border: 6px solid rgb(252, 70, 227);
+    margin: 0%;
+    background-color: rgb(252, 70, 227);
+}
+
+body > div > div:nth-child(2) > div:nth-child(2) > div > input{
     padding: 1.5%;
     border-width: 0px 0px 0px 0.5px;
-    padding-right: 20%;
+    border: none;
+    margin: 0px 83px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    padding-right: 50%;
    
 }
 
 body > div > div:nth-child(2) > div:nth-child(2) > #select1{
     padding: 1.5%;
-    padding-right: 10px;
+    cursor: pointer;
+    padding: 14px 64px 14px 13px;
+    margin: 0px 1px 1px -270px;
     border-width: 0px 0.5px 0px 0px;
 }
 
@@ -70,7 +90,6 @@ body > div > div:nth-child(2) > div:nth-child(2) > div{
 body > div > div:nth-child(2) > div:nth-child(2) > div >img{
     width: 100%;
     padding-bottom: 0px;
-
 }
 
 body > div > div:nth-child(2) > div:last-child{
@@ -82,16 +101,14 @@ body > div > div:nth-child(2) > div:last-child{
 body > div > div:nth-child(2) >div:last-child > div {
     width: 20%;
     margin-right: 15%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-body > div > div:nth-child(2) >div:last-child > div > img {
+body > div > div:nth-child(2) > div:last-child > div > img {
     width: 100%;
-    
 }
 
 body > div > div:nth-child(3){
-    /* border: 1px solid rgb(7, 232, 71); */
     margin: auto;
     height: auto;
     width: 100%;
@@ -99,8 +116,7 @@ body > div > div:nth-child(3){
     flex-direction: row;
 }
 
-body > div > div >div{
-    /* border: 1px solid black; */
+body > div > div > div {
     height: fit-content;
     display: flex;
     align-items: center;
@@ -108,13 +124,16 @@ body > div > div >div{
     margin-top: 24px;
 }
 
-#lastPartofTop {
+#lastPartofTop{
     position: sticky;
-    top: 0px;
+    top: 0%;
+    width: 100%;
+    padding-top: 1%;
     background-color: rgb(242, 7, 164);
     display: flex;
     flex-direction: column;
 }
+
 
 a {
     text-decoration: none;
@@ -130,7 +149,6 @@ a {
 
 #lastPartofTop > div > div:first-child{
     width: 80%;
-    /* border: 1px solid rgb(7, 5, 5); */
     display: flex;
     font-size: 13px;
     justify-content: space-between;
@@ -172,23 +190,24 @@ a {
 }
 
 #container2{
-    /* border: 1px solid black; */
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
 }
 
-/* -------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
 #box-1{
-    /* border: 1px solid blue; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 1%;
     width: 30%;
     margin: 0% auto auto 0.1%;
     height: auto;
     display: flex;
     flex-direction: column;
 }
+
 
 #extraImg > div{
     width: 100%;
@@ -203,53 +222,57 @@ a {
 }
 
 #box-1 > div >img{
-   
     width: 150%;
 }
 
-/*-------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
 
 #box-2{
-   
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     width: 74%;
-    margin: 0% 0.1% auto auto;
+    margin: 0% 0.1% auto 1%;
     height: auto;
     display: flex;
     flex-direction: column;
+    padding-right: 1%;
 }
 
 #box-2 > #box21 {
-    margin: 0% 0.1% auto auto;
+    margin: 0% 1% 0.5% 2%;
+    border-bottom: 1px solid grey;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: left;
     width: 100%;
+    
 }
 
 #box22{
-  
+    /* border: 1px solid rgb(184, 183, 183); */
+    border: none;
     width: 100%;
-    margin: 0% 0.1% auto auto;
+    margin: 0% 0.1% auto 2%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, auto);
-    gap: 1% 1%;
+    gap: 0% 1%;
 }
 
 #box22 > div{
     border: none;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    width: 100%;
+    border-bottom: 1px solid grey;
+    width: 85%;
     display: flex;
     flex-direction: column;
-    margin: 1px auto 1px auto;
-    padding: 1px auto 1px auto;
+    margin: 0.1% auto 1% auto;
+    padding: 0% 2% 2% 2%;
 }
 
+
 .checked {
-    color: rgb(214, 7, 7);
+    color: rgb(249, 193, 63);
 }
 
 #box22 > div > img {
@@ -269,10 +292,18 @@ a {
 #box22 > div > h5{
     color: rgb(242, 7, 164);
     font-weight: bold;
-    font-size: larger;
+    font-size: large;
     line-height: 5%;
     margin: 1px auto 1px auto;
     padding: 1px auto 1px auto;
+}
+
+#box22 > div > h3:first-child{
+    color: rgb(242, 7, 164);
+    font-weight: bold;
+    line-height: 2%;
+    margin: 1px auto 0px auto;
+    padding: 1px auto 0px auto;
 }
 
 #box22 > h1 {
@@ -293,6 +324,7 @@ a {
 } 
 
 #box22 > div > button{
+    cursor: pointer;
     background-color: rgb(242, 7, 164);
     color: white;
     margin: 1% 30% 1% 30%;
@@ -301,14 +333,14 @@ a {
     padding: 3% 5% 3% 5%;
 } 
 
-/* -------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------- */
 
 
 .hide1 {
     display: none;
 }
 .hide2 {
-    display: none;
+display: none;
 }
 .hide3 {
     display: none;
@@ -326,11 +358,14 @@ a {
     display: none;
 }
  
-/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------- */
 
 
 .myDIV1:hover + .hide1 {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 2%;
+    margin-top: 40%;
     position: absolute;
     display: flex;
     width: 90%;
@@ -338,11 +373,15 @@ a {
     background-color: white;
 }
 
-/* -------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------- */
 
 
 .myDIV2:hover + .hide2 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
     padding: 2%;
+    margin-top: 40%;
     display: flex;
     position: absolute;
     width: 90%;
@@ -356,7 +395,7 @@ a {
     width: 100%;
 }
 
-/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------- */
 
 .hoverdiv{
     display: flex;
@@ -369,10 +408,14 @@ a {
     line-height: 5%;
     font-size: 12px;
 }
-/* -------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------- */
 
 .myDIV3:hover + .hide3 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
     padding: 2%;
+    margin-top: 40%;
     display: flex;
     position: absolute;
     width: 90%;
@@ -383,10 +426,14 @@ a {
     width: 75%;
 }
 
-/* -------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
 
 .myDIV4:hover + .hide4 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
     padding: 2%;
+    margin-top: 40%;
     width: 90%;
     position: absolute;
     height: auto;
@@ -397,10 +444,14 @@ a {
     width: 75%;
 }
 
-/* -------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------- */
 
 .myDIV5:hover + .hide5 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
     padding: 2%;
+    margin-top: 40%;
     display: flex;
     position: absolute;
     width: 90%;
@@ -410,24 +461,33 @@ a {
 .hide5 > div:last-child{
     width: 75%;
 }
-/* -------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------- */
 
 
 .myDIV6:hover + .hide6 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
     padding: 2% 0% 2% 5%;
     display: block;
     position: absolute;
+    margin-top: 20%;
     margin-left: 35%;
     width: 50%;
     height: auto;
     background-color: white;
 }
 
-/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------- */
 
 
 .myDIV7:hover + .hide7 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    cursor: pointer;
     padding: 2%;
+    margin-top: 40%;
     display: flex;
     position: absolute;
     width: 90%;
@@ -436,4 +496,168 @@ a {
 }
 .hide7 > div:last-child{
     width: 75%;
+}
+
+/* ---------------------------------------------------  */
+
+#lastPortionForRead{
+    font-size: 75%;
+    width: auto;
+    padding: 0%;
+}
+
+#lastPortionForRead > div{
+    margin: 1%;
+    width: 100%;
+    border: none;
+}
+
+#lastPortionForRead > div > p > span{
+    color: rgb(193, 7, 143);
+    cursor: pointer;
+}
+
+#lastPortionForRead > div > p > span:hover{
+    color: rgb(254, 25, 251);
+    cursor: pointer;
+}
+/* ---------------------------------------------------  */
+
+#footer > div {
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 0.5%;
+}
+
+#footer > div:first-child > div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+
+#footer > div:first-child > div > p > span > img{
+    width: 3%;
+    border-radius: 50%;
+}
+
+#footer > div:first-child > div > p{
+    line-height: 3%;
+    color: rgb(134, 133, 133);
+    font-size: 15px;
+    margin: 3% auto 3% 5% ;
+}
+
+#footer > div:first-child > div > h3+p{
+    color: rgb(230, 15, 230);
+    margin-bottom: 5%;
+}
+
+#footer > div:first-child > div > p:hover{
+    color: rgb(246, 8, 227);
+    cursor: pointer;
+}
+
+#footer > div:first-child > div > h3{
+    margin-left: 7%;
+    color: white;
+    line-height: 5%;
+}
+
+#footer > div:first-child > div:first-child > p{
+    margin: 4.5% auto 4.5% 7% ;
+}
+
+#footer > div > div > div {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+#footer > div > div > div > img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+#footerlast {
+    background-color: rgb(29, 28, 28);
+    border: 1px solid rgb(29, 28, 28);
+    width: 100%;
+}
+
+#footerlast > div {
+    width: 95%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+
+#footerlast > div > div:first-child {
+    width: fit-content;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    margin: 4px 1px -107px 1px;
+    padding: 1px 1px 1px 1px;
+}
+
+#footerlast > div > div:first-child > img{
+    width: 70%;
+}
+
+#footerlast > div > div:last-child {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+#footerlast > div > div:last-child > div:nth-child(1){
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    width: fit-content;
+    padding: 1px 1px 1px 1px;
+}
+#footerlast > div > div:last-child > div:nth-child(2){
+    display: flex;
+    margin: 0%;
+}
+#footerlast > div > div:last-child > div:nth-child(3){
+    display: flex;
+    margin: 0%;
+}
+
+#footerlast > div > div:last-child > div:nth-child(2) > input{
+    background-color: white;
+    padding: 14px 86px 14px 22px;
+    font-size: large;
+    margin: 1px 0px 1px 1px;
+}
+
+#footerlast > div > div:last-child > div:nth-child(3) > button{
+    background-color: rgb(248, 26, 200);
+    padding: 15px 19px 15px 9px;
+    font-size: large;
+    margin: 1px 1px 0px 1px;
+    border: none;
+}
+
+#footerlast > div > div:last-child > div:nth-child(3) > button:hover{
+    background-color: rgb(244, 94, 212);
+    padding: 15px 19px 15px 9px;
+    font-size: large;
+    margin: 1px 1px 0px 1px;
+    border: none;
 }
