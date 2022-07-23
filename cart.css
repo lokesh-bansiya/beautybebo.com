@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 #navbar{
     border: 1px solid rgb(12, 11, 11);
     height: auto;
@@ -42,6 +43,7 @@ body > div > div:nth-child(2) > div:first-child >img {
 
 #midSectionOfNavebar{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* border: 1px solid rgb(189, 187, 187); */
     display: flex;
     width: 40%;
     margin: auto;
@@ -67,6 +69,7 @@ body > div > div:nth-child(2) > div:first-child >img {
 
 #searchicon{
     border: none;
+    /* border: 1px solid red; */
     background-color: rgb(253, 58, 227);
     padding: 2.5% 3.6% 2.5% 3.6%;
     display: flex;
@@ -175,148 +178,6 @@ a {
 }
 
 
-#container2{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-
-#box-1{
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    padding: 1%;
-    width: 30%;
-    margin: 0% auto auto 0.1%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-
-#extraImg > div{
-    width: 100%;
-}
-
-#extraImg > div > img{
-    width: 100%;
-}
-
-#box-1 >select{
-    padding: 3%;
-}
-
-#box-1 > div >img{
-    width: 150%;
-}
-
-
-#box-2{
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    width: 74%;
-    margin: 0% 0.1% auto 1%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding-right: 1%;
-}
-
-#box-2 > #box21 {
-    margin: 0% 1% 0.5% 2%;
-    border-bottom: 1px solid grey;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    width: 100%;
-    
-}
-
-#box22{
-    border: none;
-    width: 100%;
-    margin: 0% 0.1% auto 2%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(10, auto);
-    gap: 0% 1%;
-}
-
-#box22 > div{
-    border: none;
-    border-bottom: 1px solid grey;
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    margin: 0.1% auto 1% auto;
-    padding: 0% 2% 2% 2%;
-}
-
-
-.checked {
-    color: rgb(249, 193, 63);
-}
-
-#box22 > div > img {
-    width: 100%;
-    margin: 0px auto -3px auto;
-    padding: 1px auto 1px auto;
-}
-
-#box22 > div > h4 {
-    margin: -8px auto 17px auto;
-    padding: 1px auto 1px auto;
-    text-decoration: none;
-    line-height: 5%;
-    color: rgb(47, 8, 175);
-}
-
-#box22 > div > h5{
-    color: rgb(242, 7, 164);
-    font-weight: bold;
-    font-size: large;
-    line-height: 5%;
-    margin: 1px auto 1px auto;
-    padding: 1px auto 1px auto;
-}
-
-#box22 > div > h3:first-child{
-    color: rgb(242, 7, 164);
-    font-weight: bold;
-    line-height: 2%;
-    margin: 1px auto 0px auto;
-    padding: 1px auto 0px auto;
-}
-
-#box22 > h1 {
-    width: 20%;
-    line-height: 5%;
-    margin: 1px auto 1px auto;
-    padding: 1px auto 1px auto;
-    border-radius: 5px;
-}
-
-#box22 {
-    text-align: center;
-}
-
-#box22 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
-} 
-
-#box22 > div > button{
-    cursor: pointer;
-    background-color: rgb(242, 7, 164);
-    color: white;
-    margin: 1% 30% 1% 30%;
-    margin-bottom: 4%;
-    border: none;
-    padding: 3% 5% 3% 5%;
-} 
-
-
 .hide1 {
     display: none;
 }
@@ -340,6 +201,7 @@ a {
 }
  
 
+
 .myDIV1:hover + .hide1 {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -351,6 +213,7 @@ a {
     height: auto;
     background-color: white;
 }
+
 
 
 .myDIV2:hover + .hide2 {
@@ -427,12 +290,12 @@ a {
     margin-top: 40%;
     display: flex;
     position: absolute;
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: white;
 }
 .hide5 > div:last-child{
-    width: 75%;
+    width: 90%;
 }
 
 
@@ -455,44 +318,114 @@ a {
 
 .myDIV7:hover + .hide7 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
     cursor: pointer;
     padding: 2%;
     margin-top: 40%;
     display: flex;
     position: absolute;
-    width: 90%;
+    width: 95;
     height: auto;
     background-color: white;
 }
 .hide7 > div:last-child{
-    width: 75%;
+    width: 70%;
 }
 
-
-#lastPortionForRead{
-    font-size: 75%;
-    width: auto;
-    padding: 0%;
-}
-
-#lastPortionForRead > div{
-    margin: 1%;
+#cartBody{
     width: 100%;
-    border: none;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 
-#lastPortionForRead > div > p > span{
-    color: rgb(193, 7, 143);
-    cursor: pointer;
+#cartContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2,auto);
+    height: auto;
 }
 
-#lastPortionForRead > div > p > span:hover{
-    color: rgb(254, 25, 251);
-    cursor: pointer;
+#cartContainer2{
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
 }
+
+#cartContainer > div {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#cartContainer > div > div:first-child {
+    border-top: 1px solid gray;
+    border-bottom: 3px solid gray;
+    width: 100%;
+    display: flex;
+}
+
+
+#cartContainer > div > div > div:first-child{
+  margin-left: 3%;
+  width: 20%;
+}
+#cartContainer > div > div > div:first-child > img{
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 100%;
+}
+#cartContainer > div > div > div:first-child > h3{
+    font-size: medium;
+    margin: auto;
+    padding: 1%;
+}
+
+#cartContainer > div > div > div:last-child{
+    margin-left: 3%;
+}
+
+#lastdiv{
+    display: flex;
+    width: 100%;
+}
+button{
+    padding: 7px 14px 7px 14px;
+    margin: 7px 1px 1px 24px;
+    background-color: white;
+    border: 0.5px solid gray;
+}
+.checked{
+    color: rgb(211, 158, 10);
+}
+
+#cartContainer2 > div {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    margin: 3%;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cartContainer2 > div > section{
+    margin: -6px 0px 5px 1px;
+    padding: 8px 14px 3px 14px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+#sec{
+    margin: -12px 46px -24px 1px;
+    padding: 6px 20px 6px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
 
 #footer > div {
+    margin-top: 1%;
     background-color: rgb(29, 28, 28);
     display: grid;
     grid-template-columns: repeat(4, 1fr);

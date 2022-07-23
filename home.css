@@ -1,7 +1,3 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 #navbar{
     border: 1px solid rgb(12, 11, 11);
     height: auto;
@@ -39,7 +35,7 @@ body > div > div:nth-child(2) > div:first-child >img {
     width: 100%;
 }
 
-
+ 
 #midSectionOfNavebar{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     display: flex;
@@ -77,6 +73,7 @@ body > div > div:nth-child(2) > div:first-child >img {
     padding: 6.7%;
     margin: 0%;
 }
+
 
 body > div > div:nth-child(2) > div:last-child{
     width: 15%;
@@ -159,7 +156,7 @@ a {
     display: flex;
     background-color: rgb(214, 46, 158);
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     flex-direction: row;
     padding: 0.5%;
     margin: 1px 20px 1px 111px;
@@ -173,7 +170,6 @@ a {
     margin: 1px -111px 1px -110px;
     color: white;
 }
-
 
 #container2{
     width: 100%;
@@ -321,7 +317,7 @@ a {
     display: none;
 }
 .hide2 {
-    display: none;
+display: none;
 }
 .hide3 {
     display: none;
@@ -347,7 +343,7 @@ a {
     margin-top: 40%;
     position: absolute;
     display: flex;
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: white;
 }
@@ -361,7 +357,7 @@ a {
     margin-top: 40%;
     display: flex;
     position: absolute;
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: white;
 }
@@ -393,12 +389,12 @@ a {
     margin-top: 40%;
     display: flex;
     position: absolute;
-    width: 90%;
+    width: 96%;
     height: auto;
     background-color: white;
 }
 .hide3 > div:last-child{
-    width: 75%;
+    width: 85%;
 }
 
 
@@ -415,7 +411,7 @@ a {
     background-color: white;
 }
 .hide4 > div:last-child{
-    width: 75%;
+    width: 85%;
 }
 
 
@@ -427,12 +423,12 @@ a {
     margin-top: 40%;
     display: flex;
     position: absolute;
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: white;
 }
 .hide5 > div:last-child{
-    width: 75%;
+    width: 85%;
 }
 
 
@@ -445,11 +441,10 @@ a {
     position: absolute;
     margin-top: 20%;
     margin-left: 35%;
-    width: 50%;
+    width: 60%;
     height: auto;
     background-color: white;
 }
-
 
 
 
@@ -461,12 +456,12 @@ a {
     margin-top: 40%;
     display: flex;
     position: absolute;
-    width: 90%;
+    width: 96%;
     height: auto;
     background-color: white;
 }
 .hide7 > div:last-child{
-    width: 75%;
+    width: 80%;
 }
 
 
@@ -629,4 +624,260 @@ a {
     font-size: large;
     margin: 1px 1px 0px 1px;
     border: none;
+}
+
+#firstBodyPortion{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    width: 100%;
+
+}
+#firstBodyPortion > div:first-child {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 0%;
+    width: 25%;
+    display: flex;
+}
+
+#firstBodyPortion > div:first-child > div {
+    display: flex;
+    width: 100%;
+    margin-top: 0%;
+    padding-bottom: 125px;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#firstBodyPortion > div:first-child > div >p {
+    line-height: 7%;
+    font-size: 80%;
+    margin: 1%;
+    padding: 1%;
+}
+#firstBodyPortion > div:first-child > div > h3 > span > img{
+    width: 15%;
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    z-index: -1;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+#secondBodyPortion > div > img{
+    width: 100%;
+}
+
+.thirdBodyPortion > h2 {
+    font-size: medium;
+    border-bottom: 2px solid rgb(236, 53, 236);
+}
+
+.thirdBodyPortion > div {
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+#gridsection{
+    width: 100%;
+    margin: auto;
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 1%;
+}
+#gridsection > div {
+    margin: auto;
+    margin-top: 0%;
+    padding: 5%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#gridsection > div > img {
+    width: 70%;
+    margin: auto;
+    padding: 0%;
+}
+
+#gridsection > div > h3{
+    margin: 0%;
+    padding: 0%;
+}
+
+#gridsection > div >  h5{
+    margin: 0%;
+    padding: 0%;
+}
+
+#gridsection > div > button{
+    background-color: rgb(244, 94, 212);
+    color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 3%;
+    margin: 2% 25% 2% 25%;
+}
+
+#gridsection > div > button:hover {
+    background-color: rgb(240, 141, 217);
+    color: white;
+    border: 2px solid rgb(8, 2, 2);
+    border-radius: 5px;
+    padding: 2.8%;
+    margin: 2% 24.9% 2% 24.9%;
+}
+
+#fourthBodyPortion{
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+    height: auto;
+}
+
+#fourthBodyPortion > div {
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+#fourthBodyPortion > div > div {
+    width: 95%;
+    margin: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#fourthBodyPortion > div > div >img {
+    width: 100%;
+}
+
+#fifthBodyPortion{
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    height: auto;
+}
+
+#fifthBodyPortion > div {
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+#fifthBodyPortion > div > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#fifthBodyPortion > div > div > div >img {
+    width: 100%;
+   margin-top: 15%;
+}
+
+#fifthBodyPortion > div > div:last-child > div >img {
+    width: 100%;
+   margin-top: 60%;
+}
+
+#fifthBodyPortion > div > div > div  > p {
+    font-size: 70%;
+}
+
+#fifthBodyPortion > div > div:hover{
+    background-color: rgb(245, 114, 232);
+    color: white;
+}
+
+.seventhBodyPortion {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.seventhBodyPortion > div > div > img {
+    width: 100%;
+}
+
+#eighthBodyPortion > div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
 }
