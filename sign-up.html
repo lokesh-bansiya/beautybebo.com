@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cart-page</title>
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/cart.css">
+    <!-- <link rel="stylesheet" href="./styles/small_navbar.css"> -->
+    <link rel="stylesheet" href="./styles/signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign-up Page</title>
 </head>
+
 <body>
     <!-- ---------------------------------------Navbar_section----------------------------------------  -->
 
@@ -53,42 +56,30 @@
             </div>
         </nav>
     </div>
-<!-- ---------------------------------------Navbar_section----------------------------------------  -->
 
-<!-- ----------------------------------------Cart_section------------------------------------------ -->
-<div id="cartBody">
-    <div id="cartContainer"></div>
-        <div id="cartContainer2">
-            <div>
-                <h1>SUMMARY</h1>
-                <section>
-                    <option value="">ESTIMATE SHIPPING AND TAX</option>
-                </section>
 
-                <h3>Country</h3>
-                <section id="sec">
-                    <option value=""> India </option>
-                </section>
 
-                <h3>State</h3>
-                <section>
-                    <option value="">Please select a region,state or province</option>
-                </section>
+    <center>
+        <div id="signupContainer">
+            <img id="img" src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png" alt="">
+            <h2>Sign Up</h2>
 
-                <h3>Zip/Postal Code</h3>
-                <input type="text" placeholder=" ">
-            </div>
+            <form>
+                <input id="userName" type="text" placeholder="Enter username....">
+                <input id="email" type="email" placeholder="Email....">
+                <input id="pass" type="password" placeholder="Password...">
+                <input id="submt" onclick="signUp(event)" type="button" value="Submit">
+            </form>
         </div>
-    </div>
-</div>
+    </center>
+    <!-- ---------------------------------------Navbar_section----------------------------------------  -->
 
-<!-- ----------------------------------------Cart_section------------------------------------------ -->
-<footer></footer>
+    <footer></footer>
 
 </body>
+
 </html>
 
-<script src="./Scripts/cart.js"></script>
 <script src="./Scripts/navbar_script.js"></script>
 <script type="module">
     import Navbar from './components/Navbar.js';
@@ -99,4 +90,5 @@
     console.log(Footer);
     document.querySelector("footer").innerHTML = Footer();
 </script>
-    
+
+<script src="./Scripts/signup.js"></script>

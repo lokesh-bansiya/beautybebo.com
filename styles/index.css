@@ -1,0 +1,523 @@
+#home_section_first{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#home_section_first #left-Box{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    height: fit-content;
+    width: 25%;
+}
+
+#home_section_first #left-Box #left-box-grid{
+    margin-top: 5%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1%;
+}
+
+#home_section_first #left-Box #left-box-grid a div{
+    display: flex;
+    width: 90%;
+    height: 35px;
+    padding: 0%;
+    align-items: center;
+}
+
+#home_section_first #left-Box #left-box-grid a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
+#home_section_first #left-Box #left-box-grid a:hover{
+    color: rgb(250, 25, 122);
+}
+
+#home_section_first #left-Box #left-box-grid a div img{
+    width: 5%;
+}
+
+#home_section_first #left-Box #left-box-grid a div p{
+    margin-left: 3%;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+#home_section_first #left-Box #left-box-grid a div p span:last-child{
+    font-size: bolder;
+}
+
+#home_section_first #right-Box{
+   display: block;
+   width: 75%;
+}
+
+
+#secondBodyPortion{
+    width: 98%;
+    margin: auto;
+}
+
+#secondBodyPortion div{
+    display: block;
+}
+
+#secondBodyPortion div img{
+    width: 100%;
+}
+
+.home_section_part-2{
+    margin-bottom: 2%;
+}
+
+.home_section_part-2 #gridsection{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1%;
+}
+
+.home_section_part-2 #gridsection > div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: block;
+    padding: 5%;
+    text-align: center;
+}
+
+.home_section_part-2 #gridsection > div p{
+    font-size: 15px;
+}
+
+.home_section_part-2 #gridsection > div div button:first-child{
+    background-color: rgb(244, 58, 138);
+    border: none;
+    padding: 2%;
+    padding-bottom: 3%;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.home_section_part-2 #gridsection > div div button:last-child{
+   color: white;
+   padding: 2%;
+   background-color: gray;
+   border: 2px solid gray;
+   border-radius: 3px;
+   margin-bottom: 1%;
+}
+
+.home_section_part-2 #gridsection > div div button:first-child:hover{
+    background-color: rgb(153, 55, 98);
+}
+.home_section_part-2 #gridsection > div div button:last-child:hover{
+    background-color: rgb(244, 58, 138);
+    border: 2px solid rgb(244, 58, 138);
+}
+
+.home_section_part-2 #gridsection > div img{
+    width: 60%;
+}
+
+.checked{
+    color: rgb(181, 110, 3);
+}
+
+.home_section_part-4{
+    display: flex;
+}
+
+.home_section_part-3{
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.home_section_part-3 div img{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 100%;
+}
+
+.home_section_part-1 img,
+.home_section_part-4 img{
+    width: 100%;
+}
+
+.home_section_part-5{
+    display: block;
+    margin: 2% 0%;
+}
+
+.home_section_part-5 div{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.home_section_part-5 > div > div {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_section_part-5 > div > div:hover{
+    background-color: rgb(244, 58, 138);
+    color: white;
+}
+
+.home_section_part-5 > div > div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_section_part-5 > div > div div img{
+    width: 30%;
+    margin-top: 3%;
+}
+
+
+
+.home_section_part-4-0 #gridsection4-0{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+    margin-bottom: 5%;
+}
+
+.home_section_part-4-0 #gridsection4-0 > div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: block;
+    padding: 5%;
+    text-align: center;
+}
+
+.home_section_part-4-0 #gridsection4-0 > div p{
+    font-size: 15px;
+}
+
+.home_section_part-4-0 #gridsection4-0 > div div button:first-child{
+    background-color: rgb(244, 58, 138);
+    border: none;
+    padding: 2%;
+    padding-bottom: 3%;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home_section_part-4-0 #gridsection4-0 > div div button:last-child{
+   color: white;
+   padding: 2%;
+   background-color: gray;
+   border: 2px solid gray;
+   border-radius: 3px;
+   margin-bottom: 1%;
+}
+
+.home_section_part-4-0 #gridsection4-0 > div div button:first-child:hover{
+    background-color: rgb(153, 55, 98);
+}
+
+.home_section_part-4-0 #gridsection4-0 > div div button:last-child:hover{
+    background-color: rgb(244, 58, 138);
+    border: 2px solid rgb(244, 58, 138);
+}
+
+.home_section_part-4-0 #gridsection4-0 > div img{
+    width: 60%;
+}
+
+#product-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1%;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
+#product-section .section-item{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2%;
+}
+
+#product-section > .section-item > .inner-section-item{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 170px;
+}
+
+#product-section > .section-item > .inner-section-item > div:first-child{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-section > .section-item > .inner-section-item > div:last-child{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+#product-section > .section-item > .inner-section-item > div:last-child div button:first-child{
+    height: 30px;
+    background-color: rgb(244, 58, 138);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#product-section > .section-item > .inner-section-item > div:last-child div button:first-child:hover{
+    background-color: rgb(128, 46, 82);
+}
+
+#product-section > .section-item > .inner-section-item > div:last-child div button:last-child{
+    height: 30px;
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#product-section > .section-item > .inner-section-item > div:last-child div button:last-child:hover{
+    background-color: rgb(244, 58, 138);
+}
+
+#product-section > .section-item > .inner-section-item > div{
+    padding: 1%;
+}
+
+#product-section > .section-item > .inner-section-item > div img{
+    width: 90%;
+}
+
+#product-section > .section-item > .inner-section-item > div p{
+    margin: 2%;
+    padding: 0%;
+}
+
+#product-section > .section-item > .inner-section-item > div h5{
+    margin: 1%;
+    color: rgb(244, 58, 138);
+    padding: 0%;
+}
+#product-section > .section-item > .inner-section-item > div h3{
+    margin: 2%;
+    padding: 0%;
+}
+
+#eighthBodyPortion{
+    padding: 3%;
+}
+
+#eighthBodyPortion h1{
+    font-size: 150%;
+}
+
+@media all and (min-width: 501px) and (max-width: 950px) {
+    #home_section_first #left-Box{
+        display: none;
+    }
+
+    #home_section_first #right-Box{
+        display: block;
+        width: 100%;
+    }
+
+    .home_section_part-2 #gridsection{
+        display: grid;
+        width: 99%;
+        margin: auto;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2%;
+        margin-bottom: 7%;
+    }
+        
+    .home_section_part-2 #gridsection > div p{
+        font-size: 15px;
+    }
+    
+    .home_section_part-5 div{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+        
+    .home_section_part-4-0 #gridsection4-0{
+        display: grid;
+        width: 95%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3% 3%;
+        margin-bottom: 5%;
+    }
+
+    .home_section_part-4-0 #gridsection4-0 h3{
+        margin: 5px;
+    }
+        
+    #product-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3% 1%;
+        margin: 1%;
+        margin-bottom: 25%;
+    }
+
+            
+    #product-section > .section-item > .inner-section-item{
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        height: 200px;
+    }
+
+    #product-section > .section-item > .inner-section-item > div:first-child{
+        width: 30%;
+    }
+
+    #product-section > .section-item > .inner-section-item > div:last-child{
+        width: 60%;
+    }
+
+    #product-section > .section-item > .inner-section-item > div img{
+        width: 60%;
+    }
+
+    #product-section > .section-item > .inner-section-item > div p{
+        margin: 2%;
+        padding: 0%;
+        font-size: 17px;
+    }
+
+    #product-section > .section-item > .inner-section-item > div h5{
+        font-size: 20px;
+        margin: 1%;
+        padding: 0%;
+    }
+    #product-section > .section-item > .inner-section-item > div h3{
+        margin: 2%;
+        padding: 0%;
+        font-size: 20px;
+    }
+
+}
+
+@media all and (min-width: 280px) and (max-width: 550px) {
+    #home_section_first #left-Box{
+        display: none;
+    }
+
+    #home_section_first #right-Box{
+        display: block;
+        width: 100%;
+    }
+    .home_section_part-2 #gridsection{
+        display: grid;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 15%;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2% 2%;
+    }
+        
+    .home_section_part-2 #gridsection > div p{
+        font-size: 12px;
+    }
+
+    .home_section_part-2 #gridsection > div h3{
+        font-size: 12px;
+    }
+        
+    .home_section_part-3{
+        display: grid;
+        width: 95%;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3%;
+        margin-bottom: 7%;
+    }
+
+    .home_section_part-5 div{
+        display: grid;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .home_section_part-4-0 #gridsection4-0{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1%;
+        margin-bottom: 5%;
+    }
+        
+    .home_section_part-4-0 #gridsection4-0 h3{
+        margin: 10px;
+    }
+       
+    #product-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3% 1%;
+        margin: 1%;
+        margin-bottom: 35%;
+    }
+            
+    #product-section > .section-item > .inner-section-item{
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        height: 160px;
+    }
+
+    #product-section > .section-item > .inner-section-item > div:first-child{
+        width: 30%;
+    }
+
+    #product-section > .section-item > .inner-section-item > div:last-child{
+        width: 60%;
+    }
+
+    #product-section > .section-item > .inner-section-item > div img{
+        width: 70%;
+    }
+
+    #product-section > .section-item > .inner-section-item > div p{
+        margin: 2%;
+        padding: 0%;
+        font-size: 15px;
+    }
+
+    #product-section > .section-item > .inner-section-item > div h5{
+        font-size: 15px;
+        margin: 1%;
+        padding: 0%;
+    }
+    #product-section > .section-item > .inner-section-item > div h3{
+        margin: 2%;
+        padding: 0%;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,296 @@
+footer{
+    background-color: rgb(29, 28, 28);
+    padding-top: 8%;
+}
+#footerfirstcontainer{
+    padding-left: 3%;
+}
+
+#footer{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5%;
+}
+
+#footer > div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+
+#footer > div > p > span > img{
+    width: 3%;
+    border-radius: 50%;
+}
+
+#footer > div > p{
+    line-height: 3%;
+    color: rgb(134, 133, 133);
+    font-size: 15px;
+    margin: 3% auto 3% 5% ;
+}
+
+#footer > div > h3+p{
+    color: rgb(230, 15, 230);
+    margin-bottom: 5%;
+}
+
+#footer > div > p:hover{
+    color: rgb(246, 8, 227);
+    cursor: pointer;
+}
+
+#footer > div > h3{
+    margin-left: 7%;
+    color: white;
+    margin-bottom: 5%;
+    line-height: 5%;
+}
+
+#footer > div:first-child > p{
+    margin: 4.5% auto 4.5% 7% ;
+}
+
+#footer > div > div {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+#footer > div > div > img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+#footerlast {
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+
+#footerlast #firstBox{
+    width: 20%;
+    margin: 2%;
+}
+
+#footerlast #firstBox img{
+    width: 100%;
+}
+
+#footerlast  #lastBox{
+    width: 70%;
+    margin: 2%;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: end;
+}
+
+#footerlast  #lastBox #firstfooter{
+    color: white;
+    font-size: 130%;
+    padding-right: 2%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+#footerlast  #lastBox #secondfooter{
+    display: flex;
+    padding-right: 2%;
+    width: fit-content;
+    align-items: center;
+}
+
+#footerlast  #lastBox #secondfooter input{
+    padding: 5%;
+    font-size: larger;
+}
+
+#footerlast  #lastBox #thirdfooter{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+#footerlast  #lastBox #thirdfooter button{
+    padding: 14% 3% 14% 3%;
+    background-color: rgb(250, 25, 122);
+    border: 1.5px solid rgb(250, 25, 122);
+    color: white;
+    font-size: larger;
+}
+
+@media all and (min-width: 750px) and (max-width: 860px){
+
+    
+    #footerfirstcontainer{
+        padding-left: 5%;
+    }
+
+    #footerlast{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    #footer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #footer > div{
+        width: 90%;
+    }
+
+    #footerlast #firstBox{
+        width: 25%;
+        height: auto;
+    }
+    #footerlast #firstBox > img{
+        width: 100%;
+        height: 70%;
+    }
+        
+    #footerlast  #lastBox{
+        width: 75%;
+    }
+
+    #footerlast  #lastBox #firstfooter{
+        font-size: 100%;
+    }
+
+    #footerlast  #lastBox #secondfooter{
+        padding-right: 2%;
+    }
+
+    #footerlast  #lastBox #secondfooter input{
+        padding: 3%;
+    }
+
+    #footerlast  #lastBox #thirdfooter button{
+        padding: 8% 3% 8% 3%;
+        background-color: rgb(250, 25, 122);
+        border: 1.5px solid rgb(250, 25, 122);
+        color: white;
+        font-size: larger;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 749px){
+    #footerfirstcontainer{
+        padding-top: 5%;
+        padding-left: 7%;
+    }
+    
+    #footer > div:first-child img{
+        width: 30px;
+    }
+
+    #footerlast{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    #footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #footerlast{
+        flex-direction: column;
+    }
+    #footerlast #firstBox{
+        width: 50%;
+        height: auto;
+    }
+    #footerlast #firstBox > img{
+        width: 100%;
+        height: 30%;
+    }
+        
+    #footerlast  #lastBox{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    #footerlast  #lastBox #firstfooter{
+        font-size: 100%;
+    }
+    #footerlast  #lastBox #secondfooter{
+        width: fit-content;
+    }
+    #footerlast  #lastBox #secondfooter input{
+        padding: 3%;
+        font-size: medium;
+    }
+
+    #footerlast  #lastBox #thirdfooter button{
+        padding: 8% 3% 8% 3%;
+        font-size: medium;
+    }
+}
+
+@media all and (min-width: 280px) and (max-width: 580px){
+    #footerfirstcontainer{
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    #footer > div:first-child img{
+        width: 30px;
+    }
+
+    #footerlast{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    #footer{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0%;
+    }
+
+    #footerlast{
+        flex-direction: column;
+    }
+    #footerlast #firstBox{
+        width: 70%;
+        height: auto;
+    }
+    #footerlast #firstBox > img{
+        width: 100%;
+        height: 30%;
+    }
+        
+    #footerlast  #lastBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    #footerlast  #lastBox #firstfooter{
+        font-size: 100%;
+    }
+    #footerlast  #lastBox #secondfooter{
+        width: fit-content;
+        margin-top: 5%;
+    }
+    #footerlast  #lastBox #secondfooter input{
+        padding: 3%;
+        font-size: medium;
+    }
+
+    #footerlast  #lastBox #thirdfooter button{
+        padding: 8% 3% 8% 3%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 10px;
+        font-size: medium;
+    }
+}

@@ -1,11 +1,10 @@
 let addtoCartData = JSON.parse(localStorage.getItem("addToCart")) || [];
-
 console.log(addtoCartData.length);
 
 let total_item = addtoCartData.length;
-document.getElementById("totalItem").innerText = total_item;
-localStorage.setItem("totalProduct", total_item);
+document.getElementsByClassName("totalItem").innerText = total_item ;
 
+localStorage.setItem("totalProduct", total_item );
 
 
   addtoCartData.forEach(function (elem, index) {
@@ -23,7 +22,8 @@ localStorage.setItem("totalProduct", total_item);
     img.setAttribute("src", elem.img);
 
     let rating = document.createElement("h3");
-
+    rating.innerText="Rating:- "
+    rating.style.color="red";
     let span1 = document.createElement("span");
     let span2 = document.createElement("span");
     let span3 = document.createElement("span");
@@ -44,6 +44,7 @@ localStorage.setItem("totalProduct", total_item);
 
     let brand = document.createElement("h3");
     brand.innerText = elem.brand;
+    brand.style.color="rgb(248, 26, 200)"
 
     let productID = document.createElement("h4");
     productID.innerText = elem.productID;
@@ -66,8 +67,8 @@ localStorage.setItem("totalProduct", total_item);
     div3.append(edit,removetoCart);
     div4.append(div1,div2);
     div5.append(div4,div3);
-    //console.log(div);
-    //console.log("yes");
+
+    
     document.querySelector("#cartContainer").append(div5);
   });
 
@@ -76,4 +77,3 @@ localStorage.setItem("totalProduct", total_item);
     addtoCartData.splice(index, 1);
     localStorage.setItem("addToCart", JSON.stringify(addtoCartData));
   }
-

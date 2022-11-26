@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login-page</title>
+</head>
+
+<body>
+<!-- ---------------------------------------Navbar_section----------------------------------------  -->
+
+<header></header>
+<div id="headersec">
+    <nav id="small_screen_containersec">
+        <div>
+            <i class="fa fa-shopping-bag" width="36px" id="bag-icon_small_screensec"></i>
+            <a href="cart.html">MY CART : <span class="totalItem">0</span></a>
+        </div>
+        <ul class="nav-menusec">
+            <li class="nav-itemsec">
+                <a href="#" class="nav-linksec">Makeup</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="skinPage.html" class="nav-linksec">Skin</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="#" class="nav-linksec">Hair</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="#" class="nav-linksec">Personal-care</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="#" class="nav-linksec">Baby-care</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="fragrancePage.html" class="nav-linksec">Fragnance</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="#" class="nav-linksec">Ayurveda</a>
+            </li>
+            <li class="nav-itemsec">
+                <a href="#" class="nav-linksec">Brands</a>
+            </li>
+        </ul>
+        <div class="hamburgersec">
+            <span class="barsec"></span>
+            <span class="barsec"></span>
+            <span class="barsec"></span>
+        </div>
+    </nav>
+</div>
+<!-- ----------------------------------------------------------------------  -->
+
+<div id="container">
+    <img id="img" src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png" alt="">
+    <h2>Login</h2>
+    <form id="form" onsubmit="submitInformatio()">
+        <input id="userName" type="text" placeholder="Enter username....">
+        <input id="pass" type="password" placeholder="Password...">
+        <input type="button" id="btn" onclick="logIn(event)" value="Submit">
+    </form>
+</div>
+<!-- ---------------------------------------Navbar_section----------------------------------------  -->
+
+    <footer></footer>
+    
+</body>
+
+</html>
+
+<script src="./Scripts/navbar_script.js"></script>
+<script type="module">
+    import Navbar from './components/Navbar.js';
+    console.log(Navbar);
+    document.querySelector("header").innerHTML = Navbar();
+
+    import Footer from './components/Footer.js';
+    console.log(Footer);
+    document.querySelector("footer").innerHTML = Footer();
+</script>
+
+<script src="./Scripts/login.js"></script>

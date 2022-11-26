@@ -250,7 +250,7 @@ product_data = [
 
 
   let total_item = localStorage.getItem("totalProduct");
-document.getElementById("totalItem").innerText=total_item;
+document.getElementsByClassName("totalItem").innerText=total_item;
 
   // ............................................................................................
 
