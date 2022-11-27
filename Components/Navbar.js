@@ -411,7 +411,7 @@ function Navbar() {
                 <div id="cart">
                     <div>
                         <i class="fa fa-shopping-bag" id="bag-icon"></i>
-                        <a href="cart.html">MY CART : <span class="totalItem">0</span></a>
+                        <a href="cart.html">MY CART</a>
                     </div>
                 </div>
             </div>
@@ -460,7 +460,7 @@ function Navbar() {
                 <nav id="small_screen_container" class="mobile_screen_navbar">
                     <div>
                         <i class="fa fa-shopping-bag" id="bag-icon_small_screen"></i>
-                        <a href="cart.html">MY CART : <span class="totalItem">0</span></a>
+                        <a href="cart.html">MY CART</a>
                     </div>
                     <div class="nav-menu">
                         <div class="nav-item">

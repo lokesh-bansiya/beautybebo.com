@@ -245,6 +245,11 @@ footer{
         width: 30px;
     }
 
+    #footer h3{
+        width: fit-content;
+        font-size: 15px;
+    }
+
     #footerlast{
         width: 100%;
         padding-top: 3%;

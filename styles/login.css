@@ -23,6 +23,11 @@
     margin: 2%;
 }
 
+#container img{
+    width: 80%;
+    margin: auto;
+}
+
 #container > form #btn{
   background-color: rgb(242, 7, 164);
   width: fit-content;

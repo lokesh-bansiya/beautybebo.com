@@ -270,92 +270,6 @@
         padding: 0%;
     }
 }
-/* 
-@media all and (min-width: 501px) and (max-width: 700px) {
-        
-    #box-2 > #box21 h5{
-        margin: 0px;
-        margin-top: 2%;
-    }
-
-    #box22{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5% 0%;
-        margin-bottom: 65%;
-    }
-
-    #box22 > div{
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        margin: auto;
-        height: 400px;
-        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-        padding: 0% 2% 2% 2%;
-        border: none;
-    }
-
-    #box22 > div > img {
-        width: 70%;
-        margin: auto;
-    }
-
-    #box22 > div > h4 {
-        color: rgb(47, 8, 175);
-        font-size: 12px;
-    }
-
-    #box22 > div > h5{
-        color: rgb(242, 7, 164);
-        font-weight: bold;
-        font-size: large;
-        font-size: 15px;
-        line-height: 5%;
-        margin: 1%;
-    }
-
-    #box22 > div > h3:first-child{
-        color: rgb(242, 7, 164);
-        font-weight: bold;
-        line-height: 2%;
-        font-size: 15px;
-        margin: auto;
-        margin-top: 0%;
-    }
-
-    #box22 > h1{
-        width: 20%;
-        line-height: 5%;
-        border: 1px solid red;
-        margin: auto;
-        border-radius: 5px;
-    }
-
-    #box22 p{
-        font-size: 90%;
-    } 
-
-    #box22 > div > button{
-        margin: auto;
-        margin-bottom: 4%;
-        border: none;
-        padding: 3% 5% 3% 5%;
-    } 
-
-    #box22 > div > button:hover{
-        background-color: rgb(8, 153, 193);
-        color: white;
-    }
-
-
-    #lastPortionForRead{
-        font-size: 75%;
-        width: auto;
-        padding: 0%;
-    }
-
-} */
 
 @media all and (min-width: 451px) and (max-width: 700px) {
 
@@ -577,7 +491,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5% 0%;
         margin-bottom: 65%;
-        padding-bottom: 15%;
+        padding-bottom: 35%;
     }
 
     #box22 > div{
