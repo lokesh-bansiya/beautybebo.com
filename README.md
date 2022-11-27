@@ -15,37 +15,31 @@
 # Descriptive Layout:-
 
 ## Home Page:-
-![Screenshot (11986)](https://user-images.githubusercontent.com/105616033/197118421-57fc88be-9ed9-473e-bde4-6c076e15dddb.png)
-![home 2](https://user-images.githubusercontent.com/105616033/204087954-53a265d4-a579-465b-b05f-d950cca201e1.png)
+![beautybebo](https://user-images.githubusercontent.com/105616033/204132078-b57de221-d1e3-4ed0-80bc-40ad896c23e6.png)
+![home-2](https://user-images.githubusercontent.com/105616033/204132087-2a6d012d-7766-41e8-a9ac-5df6aa30039c.png)
+<br/>
 
-## Sign-up Page:-
-![signup page](https://user-images.githubusercontent.com/105616033/204088000-957b314e-adc6-48ee-896e-95e454cfc72e.png)
-
-## Login Page:-
-![signin page](https://user-images.githubusercontent.com/105616033/204088014-6a775e0a-f376-43fa-94d5-5e844fe611c8.png)
-
-## Featured Page:-
-![featured page](https://user-images.githubusercontent.com/105616033/204088034-ef34193f-0f7a-48f4-aa59-25a9e75cc87d.png)
-
-## Why Harvest Page:-
-![whyharvest page](https://user-images.githubusercontent.com/105616033/204088076-22fc628c-9ed2-4ff5-af1c-5d1637a86da4.png)
-
-## Customers Page:-
-![custmer page](https://user-images.githubusercontent.com/105616033/204088139-d680b68f-939b-4789-ab20-98c2902e784f.png)
-
+## Product Page:-
+![product-page](https://user-images.githubusercontent.com/105616033/204132119-c3aa6c8e-45f0-43c4-ba34-bf3662a99d32.png)
 
 <br/>
 
-<div>
-   <h1>Team Members:-</h1>
-   <h2>Team Members:-</h2>
-   <h3>1. Lokesh Patidar fw20_1148</h3>
-   <h3>2. Akash Kumar Panda (team lead)</h3>
-   <h3>3. Taushif Ansari fw20_0330</h3>
-   <h3>4. Abhishek Balwant Tijare fw20_0638</h3>
-   <h3>5. Paras Jamwal fp05_056</h3>
-</div>
+## Sign-up Page:-
+![signup-page](https://user-images.githubusercontent.com/105616033/204132105-d939b0c7-4201-46ea-9498-6484817db0a9.png)
 
+## Login Page:-
+![login-page](https://user-images.githubusercontent.com/105616033/204132182-fc4456cb-26c2-4f29-9d0b-57218b83e202.png)
+
+<br/>
+
+## Cart Page:-
+![cart-page](https://user-images.githubusercontent.com/105616033/204132170-183474c8-8464-4831-9af0-3326c13fdc09.png)
+<br/>
+
+## Footer Page:-
+![footer-page](https://user-images.githubusercontent.com/105616033/204132193-698872c8-6439-43d6-ab7c-b300e3774acb.png)
+
+<br/>
 <br/>
 <br/>
 <h4 align="center">💻 Tech Stack</h4>
