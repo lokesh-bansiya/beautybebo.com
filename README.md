@@ -3,14 +3,13 @@
  - Individual Project
  - This is the clone of beautybebo.com website. Beauty bebo is India's fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. We at Beauty Bebo are committed to provide genuine products on fair price to our customers.
 
-## Tech-stacks:-
- - HTML
- - CSS
- - JavaScript
-## Tools:-
- - VS-Code
- - GitHub
- - Netlify
+
+## Functionality
+<li> User can Sign-up and Login </li>
+<li> Users can add product items to cart </li>
+<li> Users can check their items in cart page </li>
+<li> Users can remove the items as well from cart page </li>
+
  
 # Descriptive Layout:-
 
@@ -40,6 +39,14 @@
 ![footer-page](https://user-images.githubusercontent.com/105616033/204132193-698872c8-6439-43d6-ab7c-b300e3774acb.png)
 
 <br/>
+## Tech-stacks:-
+ - HTML
+ - CSS
+ - JavaScript
+## Tools:-
+ - VS-Code
+ - GitHub
+ - Netlify
 <br/>
 <br/>
 <h4 align="center">💻 Tech Stack</h4>
