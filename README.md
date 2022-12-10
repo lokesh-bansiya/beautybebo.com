@@ -5,10 +5,10 @@
 
 
 ## Functionality
-<li> User can Sign-up and Login </li>
-<li> Users can add product items to cart </li>
-<li> Users can check their items in cart page </li>
-<li> Users can remove the items as well from cart page </li>
+   -  User can Sign-up and Login 
+   -  Users can add product items to cart 
+   -   Users can check their items in cart page 
+   -   Users can remove the items as well from cart page 
 
  
 # Descriptive Layout:-
