@@ -38,7 +38,7 @@
 ## Footer Page:-
 ![footer-page](https://user-images.githubusercontent.com/105616033/204132193-698872c8-6439-43d6-ab7c-b300e3774acb.png)
 
-<br/>
+
 ## Tech-stacks:-
  - HTML
  - CSS
@@ -47,6 +47,8 @@
  - VS-Code
  - GitHub
  - Netlify
+
+
 <br/>
 <br/>
 <h4 align="center">💻 Tech Stack</h4>
