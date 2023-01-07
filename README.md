@@ -5,10 +5,10 @@
 
 
 ## Functionality
-   -  User can Sign-up and Login 
-   -  Users can add product items to cart 
-   -   Users can check their items in cart page 
-   -   Users can remove the items as well from cart page 
+ - Users can Sign-up and Login
+ - Users can add product items to the cart
+ - Users can check their items on the cart page
+ - Users can remove the items as well from the cart page
 
  
 # Descriptive Layout:-
